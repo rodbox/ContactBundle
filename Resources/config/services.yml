@@ -1,0 +1,4 @@
+services:
+    expose:
+        class: RB\ContactBundle\Services\ExposeService
+        arguments: ["@service_container", "@doctrine"]
