@@ -15,7 +15,7 @@ use RB\ContactBundle\Entity\Contact;
  * Contact controller.
  * @Route("api/contact")
  */
-class ApiController extends FOSRestController
+class ApiController extends Controller
 {
     /**
      * @Route("/add")
